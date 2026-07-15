@@ -1,0 +1,7 @@
+Your client has a large amount of sensitive data stored in Amazon S3 and is worried about the security of the data while it's being transmitted and stored. You reassure them that AWS handles encryption both in transit and at rest. However, which of the following statements is incorrect regarding server-side encryption in Amazon S3?
+    Options:
+    
+    A. Amazon S3 server-side encryption uses strong encryption standards, including 256-bit Advanced Encryption Standard (AES-256).
+    B. Server-side encryption ensures that your data is encrypted while it is being transmitted over the internet.[correct - encrypting data at rest, not during transit]
+    C. With server-side encryption, Amazon S3 manages the encryption and decryption processes, including the encryption keys.
+    D. Server-side encryption pertains to data encryption at rest, where Amazon S3 encrypts data as it is stored on disk.
