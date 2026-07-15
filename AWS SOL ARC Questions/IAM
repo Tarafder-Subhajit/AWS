@@ -1,0 +1,7 @@
+1. What IAM role is required for AWS Lambda to have access to a DynamoDB Stream?
+      Options:
+      
+      A. Temporary role
+      B. Trigger role
+      C. Service role [correct]
+      D. Event Source role
