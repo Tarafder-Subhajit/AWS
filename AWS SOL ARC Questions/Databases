@@ -1,0 +1,14 @@
+1. Your organization needs to ensure that the data in its RDS database is replicated across at least two different geographic regions. Which of the following methods would effectively achieve this goal?
+    Options:
+    
+    A. Enable Multi-AZ deployment for the RDS instance to replicate data across regions.
+    B. Set up Read Replicas in different regions to copy the data from the primary RDS instance. [Correct]
+    C. Use Amazon S3 for storing database snapshots and replicate them across regions.
+    D. Implement cross-region replication with AWS Database Migration Service (DMS).
+2. What is the best way to improve the performance of a read-heavy application using Amazon RDS?
+    Options:
+    
+    A. Enable Multi-AZ
+    B. Use Read Replicas [Correct]
+    C. Increase the RDS instance size
+    D. Enable RDS encryption
