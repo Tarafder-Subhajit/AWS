@@ -1,0 +1,7 @@
+1. You're designing a highly scalable and reliable web application with substantial content, and you've opted to use Amazon CloudFront to accelerate the delivery of both static and dynamic content. You are aware that CloudFront integrates with Amazon CloudWatch to provide monitoring capabilities. Since you are based in Sydney, you've selected the Asia Pacific (Sydney) region in the AWS console. However, after setting up everything, you notice that no CloudFront metrics are showing up in the CloudWatch console. What could be the most probable reason for this issue?
+      Options:
+      
+      A. CloudWatch metrics will only display if you select the same region as the web application you are monitoring.
+      B. CloudWatch services need to be enabled with a subscription before metrics become visible.
+      C. CloudFront metrics in CloudWatch are only available if you select the US East (N. Virginia) region. [Correct]
+      D. CloudFront metrics are not yet supported in the Asia Pacific region.
