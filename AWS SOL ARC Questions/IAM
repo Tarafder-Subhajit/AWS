@@ -5,3 +5,17 @@
       B. Trigger role
       C. Service role [correct]
       D. Event Source role
+2. A company has developed a mobile app that lets users capture photos and store them within the app. The app then uploads these photos to AWS S3. The company wants users to upload their photos directly to S3 using their Google ID. How can the mobile app enable this functionality?
+      Options:
+      
+      A. Implement AWS Web Identity Federation for mobile apps to generate temporary security credentials for each user. [Correct]
+      B. Using a Google ID to connect directly to AWS S3 is not possible.
+      C. Create a new IAM user each time someone registers with their Google ID, and use IAM credentials for S3 uploads.
+      D. Set a bucket policy that allows uploads for any login ID containing 'Google' as a condition.
+3. A video processing startup is looking to create a cloud storage prototype with the goal of minimizing expenses. Which solution would be the most cost-effective for their needs?
+      Options:
+      
+      A. Use Amazon S3 Standard storage class for all data to ensure maximum availability and durability.
+      B. Utilize Amazon S3 Glacier for storing infrequently accessed video files to reduce storage costs. [Correct - Glacier because cost effective]
+      C. Implement Amazon EFS (Elastic File System) for scalable file storage across multiple instances.
+      D. Store the video files on Amazon EC2 instance storage for quick access and processing.
