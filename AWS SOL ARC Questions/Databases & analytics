@@ -19,3 +19,11 @@ A. Amazon EFS
 B. Amazon S3 Standard
 C. Provisioned IOPS SSD (io1) volumes [correct]
 D. Cold HDD (sc1) volumes
+
+4. Which approach should you take to optimize the performance of a serverless application that requires low latency and high throughput for processing real-time data streams?
+Options:
+
+A. Use AWS Lambda with Amazon Kinesis Data Streams and increase the shard count [correct]
+B. Deploy the application on Amazon EC2 instances and use Auto Scaling
+C. Use AWS Fargate with Amazon SQS and increase the message visibility timeout
+D. Implement AWS Step Functions with standard workflows for better scalability
