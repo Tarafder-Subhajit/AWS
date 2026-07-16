@@ -1,0 +1,7 @@
+1. How can you reduce latency for a web application that serves users globally?
+Options:
+
+A. Use Amazon Route 53 with latency-based routing [correct]
+B. Deploy the application only in one region
+C. Use Amazon Glacier
+D. Use a single EC2 instance with higher memory
