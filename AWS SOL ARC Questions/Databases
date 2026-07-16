@@ -12,3 +12,10 @@
     B. Use Read Replicas [Correct]
     C. Increase the RDS instance size
     D. Enable RDS encryption
+3. Which storage solution should you choose to maximize read and write throughput for an application with high IOPS requirements?
+Options:
+
+A. Amazon EFS
+B. Amazon S3 Standard
+C. Provisioned IOPS SSD (io1) volumes [correct]
+D. Cold HDD (sc1) volumes
